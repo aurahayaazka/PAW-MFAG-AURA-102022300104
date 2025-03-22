@@ -1,0 +1,30 @@
+List yang perlu dikerjakan
+
+Import Database
+
+create.php
+1. Cek Apakah ada data yang dikirim
+2. Definisikan query untuk insert data
+
+delete.php
+1. Cek Apakah ada data yang dikirim (Hint : Isilah value didalam $_POST)
+2. Definisikan query untuk menghapus data
+3. Jalankan query
+
+edit_buku.php
+1. Cek Apakah ada data yang dikirim
+2. Definisikan query untuk menampilkan data
+
+katalog_buku.php
+1. Cek Apakah ada data yang dikirim
+2. Validasi Input jika search input kurang dari 3 karakter
+3. Validasi Input jika search input tidak alphanumeric
+4. Buat query untuk menampilkan data
+5. Jalankan query
+6. Tampung hasil query ke dalam array
+7. Tambahkan Method  GET pada line 37
+8. Tambahkan Value $search pada line 39
+
+update.php
+1. Cek Apakah ada data yang dikirim
+2. Buatlah query untuk update data

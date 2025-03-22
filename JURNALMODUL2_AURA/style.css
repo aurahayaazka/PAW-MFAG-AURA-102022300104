@@ -1,0 +1,71 @@
+/* Fade in animation for hero section */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Scale animation for links */
+@keyframes scaleIn {
+    from {
+        transform: scale(0.95);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+/* Apply fade in animation to hero section */
+.hero-text {
+    animation: fadeIn 1s ease-out;
+}
+
+/* Hover effects for navigation links */
+.nav-link {
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ffc107 !important;
+    transform: translateY(-2px);
+}
+
+/* Brand hover effect */
+.navbar-brand {
+    transition: transform 0.3s ease;
+}
+
+.navbar-brand:hover {
+    transform: scale(1.05);
+}
+
+/* Button hover animations */
+.btn {
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Untuk Searchbar */
+.form-inline {
+    display: flex;
+    align-items: center;
+}
+
+/*Search Input*/
+.form-control {
+    max-width: 300px;
+}
+
+/* Search Button */
+.btn-outline-success {
+    margin-left: 5px;
+}
